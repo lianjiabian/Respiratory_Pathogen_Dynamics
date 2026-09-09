@@ -1,0 +1,12 @@
+﻿object_name,rda_file,expected_rows,expected_columns,python_pyreadr_status,r_load_status,r_detail
+cohort_pathogen_summary,data/Table_S1_cohort_pathogen_summary.rda,17,10,PASS,PASS,RDA_OK|cohort_pathogen_summary|data.frame|17|10
+demographics_summary,data/Table_S2_demographics_summary.rda,2,10,PASS,PASS,RDA_OK|demographics_summary|data.frame|2|10
+panel_history,data/Table_S3_panel_history.rda,92,12,PASS,PASS,RDA_OK|panel_history|data.frame|92|12
+complete_year_sensitivity,data/Table_S4_complete_year_sensitivity.rda,14,8,PASS,PASS,RDA_OK|complete_year_sensitivity|data.frame|14|8
+age_standardized_sensitivity,data/Table_S5_age_standardized_sensitivity.rda,10,10,PASS,PASS,RDA_OK|age_standardized_sensitivity|data.frame|10|10
+age_pathogen_rates,data/Table_S6_age_pathogen_rates.rda,153,10,PASS,PASS,RDA_OK|age_pathogen_rates|data.frame|153|10
+codetection_by_age,data/Table_S7_codetection_by_age.rda,9,7,PASS,PASS,RDA_OK|codetection_by_age|data.frame|9|7
+joint_tested_codetection,data/Table_S8_joint_tested_codetection.rda,36,8,PASS,PASS,RDA_OK|joint_tested_codetection|data.frame|36|8
+panel_size_denominators,data/Table_S9_panel_size_denominators.rda,9,5,PASS,PASS,RDA_OK|panel_size_denominators|data.frame|9|5
+environment_spearman,data/Table_S10_environment_spearman.rda,2430,11,PASS,PASS,RDA_OK|environment_spearman|data.frame|2430|11
+rf_lag_metrics,data/Table_S11_rf_lag_metrics.rda,45,12,PASS,PASS,RDA_OK|rf_lag_metrics|data.frame|45|12

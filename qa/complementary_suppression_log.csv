@@ -1,0 +1,5 @@
+﻿table,group,secondary_cell,reason
+S6,Phase II|FluB,75-89,prevent subtotal subtraction from recovering the sole primary-suppressed cell
+S6,Phase II|PIV,18-44,prevent subtotal subtraction from recovering the sole primary-suppressed cell
+S6,Phase II|HMPV,>=90,prevent subtotal subtraction from recovering the sole primary-suppressed cell
+S7,all age groups,75-89,prevent overall-total subtraction from recovering the sole primary-suppressed cell

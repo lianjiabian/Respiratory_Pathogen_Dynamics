@@ -1,0 +1,343 @@
+{
+  "status": "PASS",
+  "scope": "11 aggregate tables and nine reported figures",
+  "analysis_branch": "minimal_corrected",
+  "table_validation": "tables/public_table_validation.csv",
+  "figure_input_validation": {
+    "status": "PASS",
+    "mode": "static_validation_only_no_figure_created",
+    "branches": [
+      "minimal_corrected"
+    ],
+    "input_files": {
+      "Fig1_monthly_phase2.csv": 738,
+      "Fig2_age_rates.csv": 153,
+      "Fig2_monthly_age_phase2.csv": 6534,
+      "Fig3_monthly_age_codetection.csv": 726,
+      "Fig3_age_codetection.csv": 9,
+      "Fig3_codetection_matrix.csv": 72,
+      "Fig4_predictions.csv": 1912,
+      "Fig4_selected_feature_importance.csv": 45,
+      "Fig4_selected_performance.csv": 9,
+      "FigS1_monthly_rates.csv": 1282,
+      "FigS2_environment_cells.csv": 810,
+      "FigS3_environment_cells.csv": 810,
+      "FigS4_environment_cells.csv": 810,
+      "FigS5_rf_lag_metrics.csv": 45
+    },
+    "environment": {
+      "FigS2_environment_cells.csv": {
+        "rows": 810,
+        "blank_cells": 470,
+        "fdr05_cells": 4
+      },
+      "FigS3_environment_cells.csv": {
+        "rows": 810,
+        "blank_cells": 110,
+        "fdr05_cells": 1
+      },
+      "FigS4_environment_cells.csv": {
+        "rows": 810,
+        "blank_cells": 30,
+        "fdr05_cells": 47
+      }
+    },
+    "panel_letters": {
+      "Figure_1": "A-I",
+      "Figure_2": "A-K",
+      "Figure_3": "A-K",
+      "Figure_4": "A-R",
+      "Figure_S1": "A-J",
+      "Figure_S2": "A-I",
+      "Figure_S3": "A-I",
+      "Figure_S4": "A-I",
+      "Figure_S5": "single matrix"
+    },
+    "figure_sizes_inches": {
+      "Figure_1": [
+        6.8,
+        5.2
+      ],
+      "Figure_2": [
+        6.8,
+        9.0
+      ],
+      "Figure_3": [
+        7.0,
+        7.5
+      ],
+      "Figure_4": [
+        6.65,
+        8.8
+      ],
+      "Figure_S1": [
+        6.8,
+        8.5
+      ],
+      "Figure_S2": [
+        6.8,
+        7.4
+      ],
+      "Figure_S3": [
+        6.8,
+        7.4
+      ],
+      "Figure_S4": [
+        6.8,
+        7.4
+      ],
+      "Figure_S5": [
+        6.8,
+        4.0
+      ]
+    },
+    "expected_pdf_count": 9,
+    "expected_total_files": 36,
+    "vector_text_contract": {
+      "svg.fonttype": "none",
+      "pdf.fonttype": 42,
+      "ps.fonttype": 42
+    },
+    "tiff_contract": {
+      "dpi": 600,
+      "mode": "RGB",
+      "compression": "tiff_lzw"
+    },
+    "font_contract": {
+      "minimum_visible_font_pt": 7.0,
+      "source_literal_minimum_pt": 7.0,
+      "source_static_scan": "PASS"
+    }
+  },
+  "figure_render_validation": {
+    "status": "PASS",
+    "rendered": [
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_1",
+        "files": [
+          "minimal_corrected_submission/Figure_1.svg",
+          "minimal_corrected_submission/Figure_1.eps",
+          "minimal_corrected_submission/Figure_1.pdf",
+          "minimal_corrected_submission/Figure_1.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.615284477034723,
+            5.177199305555556
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_2",
+        "files": [
+          "minimal_corrected_submission/Figure_2.svg",
+          "minimal_corrected_submission/Figure_2.eps",
+          "minimal_corrected_submission/Figure_2.pdf",
+          "minimal_corrected_submission/Figure_2.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.592041859268055,
+            8.83838888888889
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_3",
+        "files": [
+          "minimal_corrected_submission/Figure_3.svg",
+          "minimal_corrected_submission/Figure_3.eps",
+          "minimal_corrected_submission/Figure_3.pdf",
+          "minimal_corrected_submission/Figure_3.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            7.0,
+            7.5
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_4",
+        "files": [
+          "minimal_corrected_submission/Figure_4.svg",
+          "minimal_corrected_submission/Figure_4.eps",
+          "minimal_corrected_submission/Figure_4.pdf",
+          "minimal_corrected_submission/Figure_4.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.320709753787501,
+            8.781199305555555
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_S1",
+        "files": [
+          "minimal_corrected_submission/Figure_S1.svg",
+          "minimal_corrected_submission/Figure_S1.eps",
+          "minimal_corrected_submission/Figure_S1.pdf",
+          "minimal_corrected_submission/Figure_S1.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.745270368597222,
+            8.449899305555554
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_S2",
+        "files": [
+          "minimal_corrected_submission/Figure_S2.svg",
+          "minimal_corrected_submission/Figure_S2.eps",
+          "minimal_corrected_submission/Figure_S2.pdf",
+          "minimal_corrected_submission/Figure_S2.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.381187499999999,
+            7.364199305555555
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_S3",
+        "files": [
+          "minimal_corrected_submission/Figure_S3.svg",
+          "minimal_corrected_submission/Figure_S3.eps",
+          "minimal_corrected_submission/Figure_S3.pdf",
+          "minimal_corrected_submission/Figure_S3.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.381187499999999,
+            7.364199305555555
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_S4",
+        "files": [
+          "minimal_corrected_submission/Figure_S4.svg",
+          "minimal_corrected_submission/Figure_S4.eps",
+          "minimal_corrected_submission/Figure_S4.pdf",
+          "minimal_corrected_submission/Figure_S4.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.381187499999999,
+            7.364199305555555
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      },
+      {
+        "branch": "minimal_corrected",
+        "output_set": "minimal_corrected_submission",
+        "figure": "Figure_S5",
+        "files": [
+          "minimal_corrected_submission/Figure_S5.svg",
+          "minimal_corrected_submission/Figure_S5.eps",
+          "minimal_corrected_submission/Figure_S5.pdf",
+          "minimal_corrected_submission/Figure_S5.tiff"
+        ],
+        "qa": {
+          "pdf_inches": [
+            6.396263097222222,
+            3.788901041666667
+          ],
+          "tiff_dpi": [
+            600.0,
+            600.0
+          ],
+          "tiff_mode": "RGB",
+          "vector_text": true,
+          "vector_raster_layers": false
+        }
+      }
+    ],
+    "pdf_count": 9
+  },
+  "rendered_files": 36,
+  "expected_rendered_files": 36,
+  "formats": [
+    "SVG editable",
+    "EPS editable",
+    "PDF editable",
+    "TIFF 600 dpi RGB LZW"
+  ],
+  "privacy_boundary": "No event-level clinical records are used. Fig. 3 necessarily retains all observed descriptive monthly rates and the aggregate pair counts displayed in the author-designated figure; public upload requires author/institutional approval."
+}

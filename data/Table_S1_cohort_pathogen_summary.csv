@@ -1,0 +1,18 @@
+﻿phase,pathogen,n_events,n_test,n_pos,rate_pct,ci95_low_pct,ci95_high_pct,suppressed,note
+Phase I,FluA,16993.0,16993.0,77.0,0.4531277584887895,0.3627377675023907,0.5659139423056135,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,FluB,16993.0,16993.0,25.0,0.1471194021067498,0.0996745889717088,0.2170987300660615,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,RSV,16993.0,16993.0,796.0,4.684281763078914,4.376694700553945,5.01235245086556,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,ADV,16993.0,16993.0,79.0,0.4648973106573295,0.3732159188040483,0.5789695752643494,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,PIV1,,,,,,,True,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,PIV2,,,,,,,True,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,PIV3,16993.0,16992.0,39.0,0.2295197740112994,0.1679520036441355,0.313586136253134,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase I,PIV,16993.0,16993.0,63.0,0.3707408933090095,0.2899039805859006,0.4740112393993483,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,FluA,69784.0,64933.0,7633.0,11.755193815163324,11.50972540518652,12.00518710946662,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,FluB,69784.0,64929.0,2572.0,3.961249980748202,3.813926826194901,4.114020485467671,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,RSV,69784.0,64845.0,3977.0,6.133086591101859,5.950998369543284,6.320371912181731,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,ADV,69784.0,65909.0,3832.0,5.814076984933772,5.637986317849193,5.995318041531532,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,PIV,69784.0,28890.0,827.0,2.862582208376601,2.6764743217863822,3.0612240080928017,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,HRV,69784.0,65561.0,9687.0,14.775552538856942,14.505985504222028,15.049247190104444,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,MP,69784.0,65909.0,7813.0,11.854223247204478,11.609661846756524,12.103230987010166,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,HMPV,69784.0,28585.0,499.0,1.745670806366976,1.6002040438157663,1.904105356982249,False,Corrected same-day laboratory testing events; target-specific denominator.
+Phase II,HBOV,69784.0,28587.0,277.0,0.9689719103088816,0.8618217111314372,1.0892977045882837,False,Corrected same-day laboratory testing events; target-specific denominator.

@@ -1,0 +1,12 @@
+﻿table,object_name,rows,columns,csv_sha256_match,rda_sha256_match,python_rda_load,shape_and_columns_match,csv_rda_values_match,status
+S1,cohort_pathogen_summary,17,10,True,True,True,True,True,PASS
+S2,demographics_summary,2,10,True,True,True,True,True,PASS
+S3,panel_history,92,12,True,True,True,True,True,PASS
+S4,complete_year_sensitivity,14,8,True,True,True,True,True,PASS
+S5,age_standardized_sensitivity,10,10,True,True,True,True,True,PASS
+S6,age_pathogen_rates,153,10,True,True,True,True,True,PASS
+S7,codetection_by_age,9,7,True,True,True,True,True,PASS
+S8,joint_tested_codetection,36,8,True,True,True,True,True,PASS
+S9,panel_size_denominators,9,5,True,True,True,True,True,PASS
+S10,environment_spearman,2430,11,True,True,True,True,True,PASS
+S11,rf_lag_metrics,45,12,True,True,True,True,True,PASS

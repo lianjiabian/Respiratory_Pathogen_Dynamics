@@ -1,0 +1,12 @@
+﻿table,title,object_name,source_file,rows,columns
+S1,Cohort and pathogen-specific summary by diagnostic phase,cohort_pathogen_summary,Supplementary_Table_S1_cohort_pathogen_summary.csv,17,10
+S2,Aggregate demographic characteristics by diagnostic phase,demographics_summary,Supplementary_Table_S1_demographics.csv,2,10
+S3,Observed diagnostic-panel signatures and target-specific denominators,panel_history,Supplementary_Table_S1_panel_history.csv,92,12
+S4,Complete-calendar-year and boundary sensitivity analysis,complete_year_sensitivity,Supplementary_Table_S1_complete_year_sensitivity.csv,14,8
+S5,Age-standardized cross-phase sensitivity analysis,age_standardized_sensitivity,Supplementary_Table_S1_age_standardized_sensitivity.csv,10,10
+S6,Age-stratified pathogen positivity,age_pathogen_rates,Supplementary_Table_S2_age_pathogen_rates.csv,153,10
+S7,Co-detection by age group,codetection_by_age,Supplementary_Table_S2_codetection_by_age.csv,9,7
+S8,Pairwise co-detection among jointly tested events,joint_tested_codetection,Supplementary_Table_S2_joint_tested_codetection.csv,36,8
+S9,Co-detection by number of targets tested,panel_size_denominators,Supplementary_Table_S2_panel_denominators.csv,9,5
+S10,Exploratory monthly ecological Spearman correlations,environment_spearman,Supplementary_Table_S3_environment_spearman.csv,2430,11
+S11,Random-forest performance versus prespecified baselines,rf_lag_metrics,Supplementary_Table_S3_rf_lag_metrics.csv,45,12

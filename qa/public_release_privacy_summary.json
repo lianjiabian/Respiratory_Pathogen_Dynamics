@@ -1,0 +1,22 @@
+{
+  "status": "PASS_WITH_DISCLOSURE_REVIEW",
+  "public_table_files": 11,
+  "public_table_privacy_scan_pass": 11,
+  "figure_input_files": 14,
+  "analysis_branches_in_figure_inputs": [
+    "minimal_corrected"
+  ],
+  "direct_identifier_columns": 0,
+  "stable_pseudonym_columns": 0,
+  "individual_exact_date_columns": 0,
+  "temporal_granularity": [
+    "calendar month",
+    "Sunday-anchored aggregate week"
+  ],
+  "unused_event_count_columns_removed": true,
+  "fig3_directed_pair_cells_below_20": 28,
+  "fig3_unique_unordered_pairs_below_20": 14,
+  "fig3_exception": "Exact aggregate pair counts are required to reproduce the author-designated unchanged Figure 3. Author and institutional data-custodian approval is required before public upload.",
+  "controlled_rda_present_in_public_release": false,
+  "raw_clinical_workbook_present_in_public_release": false
+}

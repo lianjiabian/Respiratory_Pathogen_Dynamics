@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "11 privacy-controlled aggregate supplementary tables; no row-level records",
+  "analysis_branch": "minimal_corrected",
+  "repository_target": "https://github.com/lianjiabian/Respiratory_Pathogen_Dynamics",
+  "python": "3.10.18",
+  "pandas": "2.2.3",
+  "pyreadr": "0.5.3",
+  "tables": 11,
+  "all_python_roundtrips_pass": true,
+  "secondary_suppression_cells": 4
+}

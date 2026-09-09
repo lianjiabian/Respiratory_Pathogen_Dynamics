@@ -1,0 +1,3 @@
+﻿phase,n_events,age_median_years,age_q1_years,age_q3_years,male_n,male_pct,female_n,female_pct,unknown_sex_n
+Phase I,16993,2.0,0.5,30.0,11236,66.12134408285765,5757,33.87865591714235,0
+Phase II,69784,13.0,4.0,67.0,41396,59.320188008712606,28388,40.6798119912874,0
