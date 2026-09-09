@@ -1,0 +1,24 @@
+# Controlled/raw clinical data must never enter the public repository.
+data/raw/
+data/controlled/
+controlled/
+private/
+restricted/
+06_受控去标识数据_禁止上传/
+*.xls
+*.xlsx
+*.xlsm
+.Rhistory
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+reproduced_outputs/
+.ipynb_checkpoints/
+.pytest_cache/
+*.tmp
+~$*
